@@ -23,7 +23,7 @@ html{
    padding-right:15px ;
    margin-left: auto;
    margin-right: auto;
-   width: 600px;
+   
  }
  /*End global rules*/
  /* Start Component */
@@ -390,6 +390,12 @@ line-height: 1.8;
   font-weight: 800;
   color: var(--main-color);
   text-decoration: none;
+}
+@media (max-width: 767px) {
+  .contact .info .label,
+  .contact .info .link {
+    font-size: 25px;
+  }
 }
 .contact .info .social{
   display: flex;
